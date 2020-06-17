@@ -11,8 +11,6 @@ import androidx.navigation.fragment.findNavController
 
 
 class SplashFragment : Fragment() {
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -24,10 +22,7 @@ class SplashFragment : Fragment() {
                 findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
             else
                 findNavController().navigate(R.id.action_splashFragment_to_onBoardFragment)
-
         }, 2000)
-
         return inflater.inflate(R.layout.fragment_splash, container, false)
     }
-
 }
