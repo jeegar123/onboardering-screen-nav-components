@@ -32,8 +32,7 @@
             android:id="@+id/action_onBoardFragment_to_homeFragment"
             app:destination="@id/homeFragment"
             app:launchSingleTop="false"
-            app:popUpTo="@id/homeFragment"
-            app:popUpToInclusive="true" />
+            app:popUpTo="@id/onBoardFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -45,8 +44,7 @@
             app:destination="@id/findFragment" />
         <action
             android:id="@+id/action_homeFragment_to_findFragment2"
-            app:destination="@id/findFragment"
-            app:popUpTo="@id/homeFragment" />
+            app:destination="@id/findFragment" />
     </fragment>
     <fragment
         android:id="@+id/findFragment"
